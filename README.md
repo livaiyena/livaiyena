@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Kerem 👋</h1>
+<h1 align="center">Hi, I'm Kerem</h1>
 <p align="center">
   A student & developer from Turkey focused on <strong>Python backends</strong>, 
   <strong>system automation</strong>, <strong>embedded systems</strong>, 
@@ -7,7 +7,7 @@
 
 ---
 
-## 🚀 Featured Project: Reika Bot
+## Featured Project: Reika Bot
 > <em>A modular, scalable Discord management & automation bot.</em>
 
 <p align="center">
@@ -18,14 +18,14 @@
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 <p align="left">
   <img src="https://skillicons.dev/icons?i=py,linux,git,bash,raspberrypi,arduino,docker,fastapi,discord,sqlite,postgres,vscode&theme=dark" />
 </p>
 
 ---
 
-## ⚡ What I Work On
+## What I Work On
 
 ### 🔹 **System & Network Programming**
 - Socket programming (TCP/UDP)
@@ -47,7 +47,7 @@
 
 ---
 
-## 🌱 Currently Learning
+## Currently Learning
 - Advanced Linux system internals  
 - Low-level communication (CAN bus, LIN, simple RTOS logic)  
 - Python performance optimization  
@@ -55,34 +55,32 @@
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
-<div align="center">
+<p align="left">
   <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=kerem-apaydin&layout=compact&theme=dark&hide_border=true&bg_color=00000000&langs_count=6" 
+    src="https://github-readme-stats-coral-seven.vercel.app/api/top-langs/?username=kerem-apaydin&layout=compact&theme=dark&hide_border=true"
     alt="Top Languages"
-    height="165"
   />
-  
+</p>
+
+<p align="left">
   <img 
-    src="https://github-readme-stats.vercel.app/api?username=kerem-apaydin&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&count_private=true" 
+    src="https://github-readme-stats-coral-seven.vercel.app/api?username=kerem-apaydin&show_icons=true&theme=dark&hide_border=true"
     alt="GitHub Stats"
-    height="165"
   />
-</div>
+</p>
 
-<br />
-
-<div align="center">
-  <img 
-    src="https://github-readme-streak-stats.herokuapp.com?user=kerem-apaydin&theme=dark&hide_border=true&background=00000000" 
+<p align="left">
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com?user=kerem-apaydin&theme=dark&hide_border=true"
     alt="Contribution Streak"
   />
-</div>
+</p>
 
 ---
 
-## 🔗 Useful Links
+## Useful Links
 
 - **LinkedIn:** [linkedin.com/in/keremapaydin](https://linkedin.com/in/keremapaydin)
 - **GitHub:** [github.com/kerem-apaydin](https://github.com/kerem-apaydin)

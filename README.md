@@ -59,14 +59,14 @@ and <strong>network/communication protocols</strong>.
 
 <p align="left">
   <img
-    src="https://github-kerem-pdzswr1on-kerem-apaydins-projects.vercel.app/api/top-langs/?username=kerem-apaydin&layout=compact&theme=dark&hide_border=true&bg_color=00000000&langs_count=6"
+    src="https://github-kerem.vercel.app/api/top-langs/?username=kerem-apaydin&layout=compact&theme=dark&hide_border=true&bg_color=00000000&langs_count=6"
     alt="Top Languages"
   />
 </p>
 
 <p align="left">
   <img
-    src="https://github-kerem-pdzswr1on-kerem-apaydins-projects.vercel.app/api?username=kerem-apaydin&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&count_private=true"
+    src="https://github-kerem.vercel.app/api?username=kerem-apaydin&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&count_private=true"
     alt="GitHub Stats"
   />
 </p>

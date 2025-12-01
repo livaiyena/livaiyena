@@ -1,16 +1,16 @@
-<h1 align="center">Hi, I'm Kerem</h1>
+<h1 align="center">Hi, I'm Kerem 👋</h1>
 <p align="center">
-A student & developer from Turkey focused on <strong>Python backends</strong>, 
-<strong>system automation</strong>, <strong>embedded systems</strong>, 
-and <strong>network/communication protocols</strong>.
+  A student & developer from Turkey focused on <strong>Python backends</strong>, 
+  <strong>system automation</strong>, <strong>embedded systems</strong>, 
+  and <strong>network/communication protocols</strong>.
 </p>
 
 ---
 
-## Featured Project: Reika Bot
+## 🚀 Featured Project: Reika Bot
 > <em>A modular, scalable Discord management & automation bot.</em>
 
-<p>
+<p align="center">
   <a href="https://github.com/kerem-apaydin/Reika"><strong>🔗 View Source Code</strong></a> •
   <a href="https://github.com/kerem-apaydin/Reika/issues"><strong>🐞 Report Bug</strong></a> •
   <a href="https://github.com/kerem-apaydin/Reika/pulls"><strong>📥 Contribute</strong></a>
@@ -18,14 +18,14 @@ and <strong>network/communication protocols</strong>.
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 <p align="left">
   <img src="https://skillicons.dev/icons?i=py,linux,git,bash,raspberrypi,arduino,docker,fastapi,discord,sqlite,postgres,vscode&theme=dark" />
 </p>
 
 ---
 
-## What I Work On
+## ⚡ What I Work On
 
 ### 🔹 **System & Network Programming**
 - Socket programming (TCP/UDP)
@@ -47,7 +47,7 @@ and <strong>network/communication protocols</strong>.
 
 ---
 
-## Currently Learning
+## 🌱 Currently Learning
 - Advanced Linux system internals  
 - Low-level communication (CAN bus, LIN, simple RTOS logic)  
 - Python performance optimization  
@@ -55,35 +55,35 @@ and <strong>network/communication protocols</strong>.
 
 ---
 
-## GitHub Stats
+## 📊 GitHub Stats
 
-<p align="left">
-  <img
-    src="https://github-kerem.vercel.app/api/top-langs/?username=kerem-apaydin&layout=compact&theme=dark&hide_border=true&bg_color=00000000&langs_count=6"
+<div align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=kerem-apaydin&layout=compact&theme=dark&hide_border=true&bg_color=00000000&langs_count=6" 
     alt="Top Languages"
+    height="165"
   />
-</p>
-
-<p align="left">
-  <img
-    src="https://github-kerem.vercel.app/api?username=kerem-apaydin&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&count_private=true"
+  
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=kerem-apaydin&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&count_private=true" 
     alt="GitHub Stats"
+    height="165"
   />
-</p>
+</div>
 
-<p align="left">
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com?user=kerem-apaydin&theme=dark&hide_border=true&background=00000000"
+<br />
+
+<div align="center">
+  <img 
+    src="https://github-readme-streak-stats.herokuapp.com?user=kerem-apaydin&theme=dark&hide_border=true&background=00000000" 
     alt="Contribution Streak"
   />
-</p>
+</div>
 
 ---
 
-## Useful Links
+## 🔗 Useful Links
 
-- **LinkedIn:** https://linkedin.com/in/keremapaydin  
-- **GitHub:** https://github.com/kerem-apaydin  
-- **Email:** *apaydinkerem18@gmail.com*
-
----
+- **LinkedIn:** [linkedin.com/in/keremapaydin](https://linkedin.com/in/keremapaydin)
+- **GitHub:** [github.com/kerem-apaydin](https://github.com/kerem-apaydin)
+- **Email:** [apaydinkerem18@gmail.com](mailto:apaydinkerem18@gmail.com)

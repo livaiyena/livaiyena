@@ -57,26 +57,10 @@
 
 ## GitHub Stats
 
-<p align="left">
-  <img 
-    src="https://github-readme-stats-coral-seven.vercel.app/api/top-langs/?username=kerem-apaydin&layout=compact&theme=dark&hide_border=true"
-    alt="Top Languages"
-  />
-</p>
+<div align="center">
+  <img src="https://github.com/kerem-apaydin/kerem-apaydin/blob/main/github-metrics.svg" alt="Metrics" width="100%">
+</div>
 
-<p align="left">
-  <img 
-    src="https://github-readme-stats-coral-seven.vercel.app/api?username=kerem-apaydin&show_icons=true&theme=dark&hide_border=true"
-    alt="GitHub Stats"
-  />
-</p>
-
-<p align="left">
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com?user=kerem-apaydin&theme=dark&hide_border=true"
-    alt="Contribution Streak"
-  />
-</p>
 
 ---
 

@@ -58,7 +58,7 @@
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github.com/kerem-apaydin/kerem-apaydin/blob/main/github-metrics.svg" alt="Metrics" width="50%">
+  <img src="https://github.com/kerem-apaydin/kerem-apaydin/blob/main/github-metrics.svg" alt="Metrics" width="80%">
 </div>
 
 

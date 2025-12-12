@@ -1,4 +1,3 @@
-<h1 align="center">Hi, I'm Kerem</h1>
 <p align="center">
   A student & developer from Turkey focused on <strong>Python backends</strong>, 
   <strong>system automation</strong>, <strong>embedded systems</strong>, 
@@ -11,9 +10,9 @@
 > <em>A modular, scalable Discord management & automation bot.</em>
 
 <p align="center">
-  <a href="https://github.com/kerem-apaydin/Reika"><strong>🔗 View Source Code</strong></a> •
-  <a href="https://github.com/kerem-apaydin/Reika/issues"><strong>🐞 Report Bug</strong></a> •
-  <a href="https://github.com/kerem-apaydin/Reika/pulls"><strong>📥 Contribute</strong></a>
+  <a href="https://github.com/livaiyena/Reika"><strong>🔗 View Source Code</strong></a> •
+  <a href="https://github.com/livaiyena/Reika/issues"><strong>🐞 Report Bug</strong></a> •
+  <a href="https://github.com/livaiyena/Reika/pulls"><strong>📥 Contribute</strong></a>
 </p>
 
 ---
@@ -58,7 +57,7 @@
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github.com/kerem-apaydin/kerem-apaydin/blob/main/github-metrics.svg?raw=true&v=3" alt="Metrics" width="100%">
+  <img src="https://github.com/livaiyena/livaiyena/blob/main/github-metrics.svg?raw=true&v=3" alt="Metrics" width="100%">
 </div>
 
 
@@ -67,5 +66,5 @@
 ## Useful Links
 
 - **LinkedIn:** [linkedin.com/in/keremapaydin](https://linkedin.com/in/keremapaydin)
-- **GitHub:** [github.com/kerem-apaydin](https://github.com/kerem-apaydin)
+- **GitHub:** [github.com/livaiyena](https://github.com/livaiyena)
 - **Email:** [apaydinkerem18@gmail.com](mailto:apaydinkerem18@gmail.com)

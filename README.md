@@ -6,14 +6,8 @@
 
 ---
 
-## Featured Project: Reika Bot
-> <em>A modular, scalable Discord management & automation bot.</em>
-
-<p align="center">
-  <a href="https://github.com/livaiyena/Reika"><strong>🔗 View Source Code</strong></a> •
-  <a href="https://github.com/livaiyena/Reika/issues"><strong>🐞 Report Bug</strong></a> •
-  <a href="https://github.com/livaiyena/Reika/pulls"><strong>📥 Contribute</strong></a>
-</p>
+## Featured Project: None
+> <em>Focused on ongoing development work</em>
 
 ---
 

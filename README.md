@@ -31,7 +31,7 @@ Seeking opportunities to apply theoretical knowledge in production environments 
   <img src="https://skillicons.dev/icons?i=c,cpp,python,java,bash,linux&theme=dark" />
 </p>
 
-### Embedded Platforms & Tools
+### Platforms & Tools
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=raspberrypi,arduino,docker,git,github,vscode&theme=dark" />

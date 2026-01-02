@@ -94,19 +94,12 @@ Seeking opportunities to apply theoretical knowledge in production environments 
 
 ---
 
-## Repository Statistics
+## Profile Statistics
 
 <div align="center">
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=livaiyena&theme=github_dark" alt="Top Languages" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=livaiyena&theme=github_dark" alt="Most Commit Language" />
-
-<br>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=livaiyena&theme=github_dark" alt="GitHub Stats" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=livaiyena&theme=github_dark&utcOffset=3" alt="Commit Time" />
-
-<br>
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=livaiyena&theme=github_dark" alt="Profile Details" />
 
@@ -142,5 +135,7 @@ Check out my [Learning Roadmap](LEARNING.md) for detailed information on technol
 ---
 
 <div align="center">
+  <img src="https://komarev.com/ghpvc/?username=livaiyena&style=flat-square&color=blue" alt="Profile Views" />
+  <br>
   <sub>Last updated automatically via GitHub Actions</sub>
 </div>

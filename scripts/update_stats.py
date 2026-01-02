@@ -206,7 +206,7 @@ class GitHubStatsCalculator:
     
     def create_chart(self, stats: Dict[str, int], output_path: str = 'stats-chart.svg') -> None:
         """
-        Create a visual chart of language statistics.
+        Create a modern, compact chart with colored legend.
         
         Args:
             stats: Dictionary of language statistics
@@ -230,43 +230,88 @@ class GitHubStatsCalculator:
         languages = [lang for lang, _ in top_languages]
         percentages = [(bytes_count / total_bytes) * 100 for _, bytes_count in top_languages]
         
+        # Vibrant color scheme
         color_map = {
-            'Python': '#3776ab', 'C': '#555555', 'C++': '#f34b7d',
-            'Java': '#b07219', 'JavaScript': '#f1e05a', 'Shell': '#89e051',
-            'PLpgSQL': '#336791', 'Dockerfile': '#384d54', 'Batchfile': '#C1F12E'
+            'Python': '#3572A5',
+            'C': '#555555',
+            'C++': '#f34b7d',
+            'Java': '#b07219',
+            'JavaScript': '#f1e05a',
+            'Shell': '#89e051',
+            'Bash': '#89e051',
+            'PLpgSQL': '#336791',
+            'SQL': '#e38c00',
+            'Dockerfile': '#384d54',
+            'Batchfile': '#C1F12E',
         }
-        colors = [color_map.get(lang, '#888888') for lang in languages]
+        colors = [color_map.get(lang, '#8b949e') for lang in languages]
         
-        fig, ax = plt.subplots(figsize=(10, 6), facecolor='#0d1117')
-        ax.set_facecolor('#0d1117')
+        # Create compact figure
+        fig = plt.figure(figsize=(10, 5), facecolor='#0d1117', dpi=100)
         
-        bars = ax.barh(range(len(languages)), percentages, color=colors, 
-                       edgecolor='#30363d', linewidth=1.5)
+        # Main layout - single horizontal bar at top, legend below
+        ax_bar = plt.subplot2grid((10, 1), (0, 0), rowspan=2, fig=fig)
+        ax_legend = plt.subplot2grid((10, 1), (3, 0), rowspan=7, fig=fig)
         
-        ax.set_yticks(range(len(languages)))
-        ax.set_yticklabels(languages, color='#c9d1d9', fontsize=11, fontweight='bold')
-        ax.set_xlabel('Percentage (%)', color='#c9d1d9', fontsize=11)
-        ax.set_title('Repository Language Statistics', color='#c9d1d9', 
-                     fontsize=14, fontweight='bold', pad=20)
+        # Create stacked horizontal bar
+        left = 0
+        for i, (pct, color) in enumerate(zip(percentages, colors)):
+            ax_bar.barh(0, pct, left=left, height=0.8, 
+                       color=color, edgecolor='none')
+            left += pct
         
-        for bar, pct in zip(bars, percentages):
-            ax.text(bar.get_width() + 1, bar.get_y() + bar.get_height()/2, 
-                   f'{pct:.1f}%', ha='left', va='center', 
-                   color='#c9d1d9', fontsize=10)
+        # Style bar axes
+        ax_bar.set_xlim(0, 100)
+        ax_bar.set_ylim(-0.5, 0.5)
+        ax_bar.axis('off')
+        ax_bar.set_facecolor('#0d1117')
         
-        ax.spines['bottom'].set_color('#30363d')
-        ax.spines['top'].set_visible(False)
-        ax.spines['right'].set_visible(False)
-        ax.spines['left'].set_color('#30363d')
-        ax.tick_params(colors='#c9d1d9')
-        ax.grid(axis='x', alpha=0.2, color='#30363d', linestyle='--')
-        ax.set_xlim(0, max(percentages) * 1.15)
+        # Title
+        ax_bar.text(0, 1.2, 'Most Used Languages', 
+                   color='#e6edf3', fontsize=16, 
+                   fontweight='700', va='bottom',
+                   fontfamily='sans-serif')
         
-        plt.tight_layout()
-        plt.savefig(output_path, format='svg', facecolor='#0d1117', 
-                   edgecolor='none', bbox_inches='tight')
+        # Legend area - create grid layout
+        ax_legend.axis('off')
+        ax_legend.set_xlim(0, 2)
+        ax_legend.set_ylim(0, 4)
+        ax_legend.set_facecolor('#0d1117')
+        
+        # Display legend items in 2 columns
+        col_width = 1.0
+        row_height = 0.5
+        items_per_col = 4
+        
+        for i, (lang, pct, color) in enumerate(zip(languages, percentages, colors)):
+            col = i // items_per_col
+            row = i % items_per_col
+            
+            x = col * col_width
+            y = 3.5 - (row * row_height)
+            
+            # Color dot
+            ax_legend.plot(x + 0.02, y, 'o', color=color, 
+                          markersize=10, markeredgecolor='none')
+            
+            # Language name and percentage
+            ax_legend.text(x + 0.08, y, f'{lang} {pct:.1f}%', 
+                          color='#e6edf3', fontsize=11,
+                          va='center', fontweight='500',
+                          fontfamily='sans-serif')
+        
+        # Tight layout
+        plt.tight_layout(pad=1)
+        
+        # Save
+        plt.savefig(output_path, format='svg', 
+                   facecolor='#0d1117', 
+                   edgecolor='none', 
+                   bbox_inches='tight',
+                   pad_inches=0.2)
         plt.close()
-        print(f"Chart saved to: {output_path}")
+        print(f"✓ Chart saved to: {output_path}")
+    
     
     @staticmethod
     def _format_bytes(bytes_count: int) -> str:

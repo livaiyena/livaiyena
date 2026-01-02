@@ -1,78 +1,126 @@
+<div align="center">
+
 # Computer Engineering Student
 
-## About
+### Embedded Systems • Firmware Development • IoT
 
-Computer Engineering student transitioning from academic learning to practical firmware development. Focused on building robust, real-time systems with emphasis on hardware-software integration. Primary interests include RTOS-based applications, bare-metal firmware development, and low-level driver implementation for resource-constrained microcontrollers.
+<p align="center">
+  <em>Transitioning from academic learning to practical firmware development</em><br>
+  <em>Focused on real-time systems and hardware-software integration</em>
+</p>
 
-Currently seeking opportunities to apply theoretical knowledge in production environments and contribute to projects involving real-time embedded systems, firmware optimization, and hardware abstraction layer design.
+</div>
 
 ---
 
-## Technical Stack
+## About
 
-### Languages
-- **C** - Primary language for firmware development
-- **C++** - Object-oriented embedded applications
-- **Python** - Automation, testing, and tooling
-- **Java** - Object-oriented programming and applications
-- **Bash** - Shell scripting and automation
+Computer Engineering student with a passion for embedded systems and low-level programming. Currently diving deep into RTOS-based applications, bare-metal firmware development, and driver implementation for resource-constrained microcontrollers.
 
-### Architectures & Microcontrollers
+Seeking opportunities to apply theoretical knowledge in production environments and contribute to projects involving real-time embedded systems, firmware optimization, and hardware abstraction layer design.
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+### Languages & Core Technologies
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,java,bash,linux&theme=dark" />
+</p>
+
+### Embedded Platforms & Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=raspberrypi,arduino,docker,git,github,vscode&theme=dark" />
+</p>
+
+### Network & Database
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,sqlite,fastapi&theme=dark" />
+</p>
+
+</div>
+
+<details>
+<summary><b>Detailed Technical Skills</b></summary>
+
+<br>
+
+**Microcontrollers & Architectures**
 - ESP32 / ESP8266
 - STM32 Family
 - Raspberry Pi (4B, Zero W)
 - Arduino platforms
 
-### Communication Protocols & Interfaces
-- UART, USART
-- SPI (Serial Peripheral Interface)
-- I2C (Inter-Integrated Circuit)
+**Communication Protocols**
+- UART, USART, SPI, I2C
 - CAN (Controller Area Network)
 - USB (CDC, HID)
 - Ethernet (LWIP Stack)
 - Modbus RTU/TCP
 - MQTT, HTTP
 
-### Development Tools & Environment
-- **Debuggers:** GDB
-- **Build Systems:** CMake, Make
-- **Version Control:** Git, GitHub
-- **Containerization:** Docker
-- **Network Tools:** Wireshark, Packet Tracer
+**Development Tools**
+- Debuggers: GDB
+- Build Systems: CMake, Make
+- Version Control: Git, GitHub
+- Containerization: Docker
+- Network Tools: Wireshark, Packet Tracer
 
-### Operating Systems
-- **Linux** - System programming and administration
-- **Unix** - Command-line tools and shell scripting
+**Operating Systems**
+- Linux: System programming and administration
+- Unix: Command-line tools and shell scripting
+
+</details>
 
 ---
-
 
 ## Repository Statistics
 
 <!-- STATS_START -->
-| Language | Percentage | Bytes |
-|----------|-----------|-------|
-| JavaScript | 72.48% | 633.53 KB |
-| Python | 10.32% | 90.20 KB |
-| C | 7.89% | 69.00 KB |
-| PLpgSQL | 4.77% | 41.69 KB |
-| Shell | 2.10% | 18.37 KB |
-| CSS | 1.19% | 10.39 KB |
-| HTML | 1.06% | 9.31 KB |
-| Batchfile | 0.15% | 1.32 KB |
-| Dockerfile | 0.04% | 318.00 B |
+**Python      ** `██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`  10.3% (90.20 KB)
+**C           ** `████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`   7.9% (69.00 KB)
+**PLpgSQL     ** `██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`   4.8% (41.69 KB)
+**Shell       ** `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`   2.1% (18.37 KB)
+**Batchfile   ** `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`   0.1% (1.32 KB)
+**Dockerfile  ** `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`   0.0% (318.00 B)
 
-**Total:** 874.12 KB
+**Total Code:** 220.90 KB
 <!-- STATS_END -->
+
+<div align="center">
+  <sub>Statistics automatically updated weekly • HTML/CSS/JS excluded</sub>
+</div>
+
+---
+
+## Currently Learning
+
+Check out my [Learning Roadmap](LEARNING.md) for detailed information on technologies I'm actively exploring:
+
+- RTOSes: FreeRTOS, Zephyr
+- ARM Architectures: Cortex-M series
+- Tools: OpenOCD, J-Link, PlatformIO
+- Hardware Design: KiCad, PCB Design
 
 ---
 
 ## Contact
 
+<div align="center">
+
 **Email:** [apaydinkerem18@gmail.com](mailto:apaydinkerem18@gmail.com)  
 **LinkedIn:** [linkedin.com/in/keremapaydin](https://linkedin.com/in/keremapaydin)  
 **GitHub:** [github.com/livaiyena](https://github.com/livaiyena)
 
+</div>
+
 ---
 
-**Last Updated:** Automated via GitHub Actions
+<div align="center">
+  <sub>Last updated automatically via GitHub Actions</sub>
+</div>

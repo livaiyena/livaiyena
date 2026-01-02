@@ -123,9 +123,9 @@ Check out my [Learning Roadmap](LEARNING.md) for detailed information on technol
 
 <div align="left">
 
-**Email:** [apaydinkerem18@gmail.com](mailto:apaydinkerem18@gmail.com)  
-**LinkedIn:** [linkedin.com/in/keremapaydin](https://linkedin.com/in/keremapaydin)  
-**GitHub:** [github.com/livaiyena](https://github.com/livaiyena)
+**Email:**      [apaydinkerem18@gmail.com](mailto:apaydinkerem18@gmail.com)  
+**LinkedIn:**   [linkedin.com/in/keremapaydin](https://linkedin.com/in/keremapaydin)  
+**GitHub:**     [github.com/livaiyena](https://github.com/livaiyena)
 
 </div>
 

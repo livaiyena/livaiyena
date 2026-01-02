@@ -99,7 +99,14 @@ Seeking opportunities to apply theoretical knowledge in production environments 
 <div align="center">
 
 <!-- STATS_START -->
-![Language Statistics](stats-chart.svg)
+**Python      ** `████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`  41.8% (93.97 KB)
+**C           ** `███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`  30.7% (69.00 KB)
+**PLpgSQL     ** `█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`  18.6% (41.69 KB)
+**Shell       ** `████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`   8.2% (18.37 KB)
+**Batchfile   ** `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`   0.6% (1.32 KB)
+**Dockerfile  ** `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`   0.1% (318.00 B)
+
+**Total Code:** 224.66 KB
 <!-- STATS_END -->
 
 <sub>Statistics automatically updated weekly • HTML/CSS/JS excluded</sub>

@@ -50,6 +50,13 @@ Seeking opportunities to apply theoretical knowledge in production environments 
 
 <br>
 
+**Programming Languages**
+- C: Primary language for firmware development
+- C++: Object-oriented embedded applications
+- Python: Automation, testing, and tooling
+- Java: Object-oriented programming and applications
+- Bash: Shell scripting and automation
+
 **Microcontrollers & Architectures**
 - ESP32 / ESP8266
 - STM32 Family
@@ -64,12 +71,20 @@ Seeking opportunities to apply theoretical knowledge in production environments 
 - Modbus RTU/TCP
 - MQTT, HTTP
 
-**Development Tools**
+**Development Tools & Environment**
 - Debuggers: GDB
 - Build Systems: CMake, Make
 - Version Control: Git, GitHub
+- IDEs: VSCode
 - Containerization: Docker
 - Network Tools: Wireshark, Packet Tracer
+
+**Databases**
+- PostgreSQL: Relational database
+- SQLite: Embedded database
+
+**Frameworks & APIs**
+- FastAPI: Python web framework
 
 **Operating Systems**
 - Linux: System programming and administration

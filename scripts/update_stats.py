@@ -153,31 +153,46 @@ class GitHubStatsCalculator:
     
     def format_statistics(self, stats: Dict[str, int]) -> str:
         """
-        Format statistics as markdown table.
+        Format statistics as markdown with progress bars.
         
         Args:
             stats: Dictionary of language statistics
             
         Returns:
-            Formatted markdown string
+            Formatted markdown string with progress bars
         """
-        if not stats:
+        # Filter out web development languages
+        excluded_languages = {'HTML', 'CSS', 'JavaScript', 'TypeScript', 'SCSS', 'Less'}
+        filtered_stats = {
+            lang: bytes_count 
+            for lang, bytes_count in stats.items() 
+            if lang not in excluded_languages
+        }
+        
+        if not filtered_stats:
             return "No language data available.\n"
         
-        total_bytes = sum(stats.values())
-        sorted_stats = sorted(stats.items(), key=lambda x: x[1], reverse=True)
+        total_bytes = sum(filtered_stats.values())
+        sorted_stats = sorted(filtered_stats.items(), key=lambda x: x[1], reverse=True)
         
-        lines = [
-            "| Language | Percentage | Bytes |",
-            "|----------|-----------|-------|"
-        ]
+        # Take top 8 languages to avoid clutter
+        top_languages = sorted_stats[:8]
         
-        for language, bytes_count in sorted_stats:
+        lines = []
+        
+        for language, bytes_count in top_languages:
             percentage = (bytes_count / total_bytes) * 100
             formatted_bytes = self._format_bytes(bytes_count)
-            lines.append(f"| {language} | {percentage:.2f}% | {formatted_bytes} |")
+            
+            # Create progress bar (50 characters wide)
+            bar_length = 50
+            filled_length = int(bar_length * percentage / 100)
+            bar = '█' * filled_length + '░' * (bar_length - filled_length)
+            
+            # Format: Language name (padded), bar, percentage, bytes
+            lines.append(f"**{language:<12}** `{bar}` {percentage:5.1f}% ({formatted_bytes})")
         
-        lines.append(f"\n**Total:** {self._format_bytes(total_bytes)}")
+        lines.append(f"\n**Total Code:** {self._format_bytes(total_bytes)}")
         
         return '\n'.join(lines)
     

@@ -67,18 +67,6 @@ Currently seeking opportunities to apply theoretical knowledge in production env
 
 ---
 
-## Internship Objective
-
-Actively seeking internship opportunities in:
-- **Automotive Embedded Systems** - AUTOSAR, CAN-based ECU development, diagnostic protocols
-- **IoT Device Development** - Edge computing, low-power wireless systems, sensor integration
-- **Industrial Automation** - PLC interfacing, real-time control systems, fieldbus protocols
-- **Firmware Development** - Bootloaders, BSP development, driver implementation, RTOS applications
-
-Open to contributions in firmware optimization, hardware bring-up, and real-time system design. Available for Summer 2026 or rolling start dates.
-
----
-
 ## Contact
 
 **Email:** [apaydinkerem18@gmail.com](mailto:apaydinkerem18@gmail.com)  

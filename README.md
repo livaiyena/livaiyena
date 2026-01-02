@@ -98,11 +98,12 @@ Seeking opportunities to apply theoretical knowledge in production environments 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=livaiyena&layout=compact&theme=dark&hide=html,css,javascript,typescript&langs_count=8&bg_color=0d1117&border_color=30363d&title_color=e6edf3&text_color=c9d1d9" alt="Top Languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=livaiyena&theme=github_dark&exclude=html,css,javascript,typescript" alt="Top Languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=livaiyena&theme=github_dark&exclude=html,css,javascript,typescript" alt="Most Commit Language" />
 
-<br><br>
+<br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=livaiyena&show_icons=true&theme=dark&bg_color=0d1117&border_color=30363d&title_color=e6edf3&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=livaiyena&theme=github_dark" alt="Profile Details" />
 
 <br>
 

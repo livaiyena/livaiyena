@@ -325,10 +325,10 @@ class GitHubStatsCalculator:
 
 def update_readme(stats_markdown: str, readme_path: str = 'README.md') -> None:
     """
-    Update README.md with new statistics.
+    Update README.md with SVG chart reference.
     
     Args:
-        stats_markdown: Formatted statistics markdown
+        stats_markdown: Formatted statistics markdown (unused, kept for compatibility)
         readme_path: Path to README.md file
     """
     marker_start = '<!-- STATS_START -->'
@@ -345,21 +345,24 @@ def update_readme(stats_markdown: str, readme_path: str = 'README.md') -> None:
         print(f"Error: Markers {marker_start} and {marker_end} not found in README")
         sys.exit(1)
     
+    # Embed SVG chart instead of text
+    chart_embed = '![Language Statistics](stats-chart.svg)'
+    
     # Find positions of markers
     start_idx = content.find(marker_start) + len(marker_start)
     end_idx = content.find(marker_end)
     
-    # Construct new content
+    # Construct new content with SVG embed
     new_content = (
         content[:start_idx] +
-        '\n' + stats_markdown + '\n' +
+        '\n' + chart_embed + '\n' +
         content[end_idx:]
     )
     
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.write(new_content)
     
-    print(f"\n✓ Successfully updated {readme_path}")
+    print(f"\n✓ Successfully updated {readme_path} with chart")
 
 
 def main():

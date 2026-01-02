@@ -98,7 +98,13 @@ Seeking opportunities to apply theoretical knowledge in production environments 
 
 <div align="center">
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=livaiyena&layout=compact&theme=dark&hide=html,css,javascript&langs_count=8&bg_color=0d1117&border_color=30363d&title_color=e6edf3&text_color=c9d1d9)](https://github.com/anuraghazra/github-readme-stats)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=livaiyena&layout=compact&theme=dark&hide=html,css,javascript,typescript&langs_count=8&bg_color=0d1117&border_color=30363d&title_color=e6edf3&text_color=c9d1d9" alt="Top Languages" />
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=livaiyena&show_icons=true&theme=dark&bg_color=0d1117&border_color=30363d&title_color=e6edf3&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Stats" />
+
+<br>
 
 <sub>Statistics automatically updated • HTML/CSS/JS excluded</sub>
 

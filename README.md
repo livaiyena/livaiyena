@@ -135,7 +135,5 @@ Check out my [Learning Roadmap](LEARNING.md) for detailed information on technol
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=livaiyena&style=flat-square&color=blue" alt="Profile Views" />
-  <br>
   <sub>Last updated automatically via GitHub Actions</sub>
 </div>

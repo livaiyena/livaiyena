@@ -34,7 +34,7 @@ Seeking opportunities to apply theoretical knowledge in production environments 
 ### Platforms & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=raspberrypi,arduino,docker,git,github,vscode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=raspberrypi,arduino,docker&theme=dark" />
 </p>
 
 ### Network & Database

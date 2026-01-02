@@ -98,8 +98,13 @@ Seeking opportunities to apply theoretical knowledge in production environments 
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=livaiyena&theme=github_dark&exclude=html,css,javascript,typescript" alt="Top Languages" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=livaiyena&theme=github_dark&exclude=html,css,javascript,typescript" alt="Most Commit Language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=livaiyena&theme=github_dark" alt="Top Languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=livaiyena&theme=github_dark" alt="Most Commit Language" />
+
+<br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=livaiyena&theme=github_dark" alt="GitHub Stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=livaiyena&theme=github_dark&utcOffset=3" alt="Commit Time" />
 
 <br>
 
@@ -107,7 +112,7 @@ Seeking opportunities to apply theoretical knowledge in production environments 
 
 <br>
 
-<sub>Statistics automatically updated • HTML/CSS/JS excluded</sub>
+<sub>Statistics automatically updated</sub>
 
 </div>
 

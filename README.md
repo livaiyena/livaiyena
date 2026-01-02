@@ -50,7 +50,19 @@ Currently seeking opportunities to apply theoretical knowledge in production env
 ## Repository Statistics
 
 <!-- STATS_START -->
-Language statistics will be automatically updated by GitHub Actions.
+| Language | Percentage | Bytes |
+|----------|-----------|-------|
+| JavaScript | 72.48% | 633.53 KB |
+| Python | 10.32% | 90.20 KB |
+| C | 7.89% | 69.00 KB |
+| PLpgSQL | 4.77% | 41.69 KB |
+| Shell | 2.10% | 18.37 KB |
+| CSS | 1.19% | 10.39 KB |
+| HTML | 1.06% | 9.31 KB |
+| Batchfile | 0.15% | 1.32 KB |
+| Dockerfile | 0.04% | 318.00 B |
+
+**Total:** 874.12 KB
 <!-- STATS_END -->
 
 ---

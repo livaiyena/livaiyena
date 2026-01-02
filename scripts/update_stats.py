@@ -23,6 +23,14 @@ except ImportError:
     print("Error: requests library not found. Install with: pip install requests")
     sys.exit(1)
 
+try:
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+except ImportError:
+    print("Error: matplotlib library not found. Install with: pip install matplotlib")
+    sys.exit(1)
+
 
 class GitHubStatsCalculator:
     """Calculate language statistics across all user repositories."""
@@ -196,6 +204,70 @@ class GitHubStatsCalculator:
         
         return '\n'.join(lines)
     
+    def create_chart(self, stats: Dict[str, int], output_path: str = 'stats-chart.svg') -> None:
+        """
+        Create a visual chart of language statistics.
+        
+        Args:
+            stats: Dictionary of language statistics
+            output_path: Path to save the chart
+        """
+        excluded_languages = {'HTML', 'CSS', 'JavaScript', 'TypeScript', 'SCSS', 'Less'}
+        filtered_stats = {
+            lang: bytes_count 
+            for lang, bytes_count in stats.items() 
+            if lang not in excluded_languages
+        }
+        
+        if not filtered_stats:
+            print("No language data available for chart")
+            return
+        
+        total_bytes = sum(filtered_stats.values())
+        sorted_stats = sorted(filtered_stats.items(), key=lambda x: x[1], reverse=True)
+        top_languages = sorted_stats[:8]
+        
+        languages = [lang for lang, _ in top_languages]
+        percentages = [(bytes_count / total_bytes) * 100 for _, bytes_count in top_languages]
+        
+        color_map = {
+            'Python': '#3776ab', 'C': '#555555', 'C++': '#f34b7d',
+            'Java': '#b07219', 'JavaScript': '#f1e05a', 'Shell': '#89e051',
+            'PLpgSQL': '#336791', 'Dockerfile': '#384d54', 'Batchfile': '#C1F12E'
+        }
+        colors = [color_map.get(lang, '#888888') for lang in languages]
+        
+        fig, ax = plt.subplots(figsize=(10, 6), facecolor='#0d1117')
+        ax.set_facecolor('#0d1117')
+        
+        bars = ax.barh(range(len(languages)), percentages, color=colors, 
+                       edgecolor='#30363d', linewidth=1.5)
+        
+        ax.set_yticks(range(len(languages)))
+        ax.set_yticklabels(languages, color='#c9d1d9', fontsize=11, fontweight='bold')
+        ax.set_xlabel('Percentage (%)', color='#c9d1d9', fontsize=11)
+        ax.set_title('Repository Language Statistics', color='#c9d1d9', 
+                     fontsize=14, fontweight='bold', pad=20)
+        
+        for bar, pct in zip(bars, percentages):
+            ax.text(bar.get_width() + 1, bar.get_y() + bar.get_height()/2, 
+                   f'{pct:.1f}%', ha='left', va='center', 
+                   color='#c9d1d9', fontsize=10)
+        
+        ax.spines['bottom'].set_color('#30363d')
+        ax.spines['top'].set_visible(False)
+        ax.spines['right'].set_visible(False)
+        ax.spines['left'].set_color('#30363d')
+        ax.tick_params(colors='#c9d1d9')
+        ax.grid(axis='x', alpha=0.2, color='#30363d', linestyle='--')
+        ax.set_xlim(0, max(percentages) * 1.15)
+        
+        plt.tight_layout()
+        plt.savefig(output_path, format='svg', facecolor='#0d1117', 
+                   edgecolor='none', bbox_inches='tight')
+        plt.close()
+        print(f"Chart saved to: {output_path}")
+    
     @staticmethod
     def _format_bytes(bytes_count: int) -> str:
         """Format byte count with appropriate unit."""
@@ -289,7 +361,11 @@ def main():
     print(f"Fetching repository data for user: {args.username}\n")
     stats = calculator.calculate_total_stats(include_forks=args.include_forks)
     
-    # Format output
+    # Generate chart
+    chart_path = os.path.join(os.path.dirname(args.readme) or '.', 'stats-chart.svg')
+    calculator.create_chart(stats, chart_path)
+    
+    # Format text output
     stats_markdown = calculator.format_statistics(stats)
     
     if args.dry_run:

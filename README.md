@@ -96,19 +96,14 @@ Seeking opportunities to apply theoretical knowledge in production environments 
 
 ## Repository Statistics
 
-<!-- STATS_START -->
-**Python      ** `████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`  41.0% (90.88 KB)
-**C           ** `███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`  31.1% (69.00 KB)
-**PLpgSQL     ** `█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`  18.8% (41.69 KB)
-**Shell       ** `████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`   8.3% (18.37 KB)
-**Batchfile   ** `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`   0.6% (1.32 KB)
-**Dockerfile  ** `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`   0.1% (318.00 B)
+<div align="center">
 
-**Total Code:** 221.57 KB
+<!-- STATS_START -->
+![Language Statistics](stats-chart.svg)
 <!-- STATS_END -->
 
-<div align="center">
-  <sub>Statistics automatically updated weekly • HTML/CSS/JS excluded</sub>
+<sub>Statistics automatically updated weekly • HTML/CSS/JS excluded</sub>
+
 </div>
 
 ---
@@ -126,7 +121,7 @@ Check out my [Learning Roadmap](LEARNING.md) for detailed information on technol
 
 ## Contact
 
-<div align="center">
+<div align="left">
 
 **Email:** [apaydinkerem18@gmail.com](mailto:apaydinkerem18@gmail.com)  
 **LinkedIn:** [linkedin.com/in/keremapaydin](https://linkedin.com/in/keremapaydin)  

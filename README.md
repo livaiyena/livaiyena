@@ -45,7 +45,7 @@ Computer Engineering student with a strong interest in systems and automation. C
 ## Technical Skills
 
 **Systems & Scripting**
-C, Python, Bash, Java, Linux (Arch), Unix
+C, Python, Bash, Java, Linux, Unix, CI/CD
 ***
 **Infrastructure**
 Docker, Kubernetes (Basics), Git, CMake, Make, GDB

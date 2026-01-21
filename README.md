@@ -44,20 +44,13 @@ Computer Engineering student with a strong interest in systems and automation. C
 
 ## Technical Skills
 
-**Systems & Scripting**
-C, Python, Bash, Java, Linux, Unix, CI/CD
-***
-**Infrastructure**
-Docker, Kubernetes (Basics), Git, CMake, Make, GDB
-***
-**Networking**
-OSPF, BGP, RIP, EIGRP, MQTT, Wireshark, Packet Tracer
-***
-**Communication & Hardware**
-UART, SPI, I2C, CAN, STM32, ESP32, Arduino
-***
-**Databases**
-PostgreSQL, SQLite
+| | |
+| :--- | :--- |
+| **Languages & OS** | C, Python, Bash, Java, Linux (Arch) |
+| **DevOps & Tools** | Docker, Kubernetes, Git, CMake, Make |
+| **Networking** | OSPF, BGP, MQTT, Wireshark |
+| **Embedded** | STM32, ESP32, UART, SPI, I2C |
+| **Databases** | PostgreSQL, SQLite |
 
 ---
 

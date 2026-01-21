@@ -42,45 +42,22 @@ Computer Engineering student with a strong interest in systems and automation. C
 
 </div>
 
-<details>
-<summary><b>Detailed Technical Skills</b></summary>
+## Technical Skills
 
-<br>
-
-**Programming & Scripting**
-- C: System-level & firmware development.
-- Python: Automation, scripting, and tooling
-- Java: Application development and OOP principles
-- Bash: Shell scripting and automation
-
-**Networking (Protocols & Tools)**
-- Routing: OSPF, BGP, RIP, EIGRP, IS-IS.
-- Communication: MQTT, HTTP, Modbus, Ethernet (LWIP).
-- Low-Level: UART, SPI, I2C, CAN.
-- Tools: Wireshark, Cisco Packet Tracer.
-
-**Embedded Systems**
-- Microcontrollers: ESP32, STM32, Arduino, Raspberry Pi.
-
-**Development Tools & Environment**
-- Operating System: Linux, Unix
-- Debuggers: GDB
-- Build Systems: CMake, Make
-- Version Control: Git, GitHub
-- Containerization: Docker, Kubernetes
-
+**Systems & Scripting**
+C, Python, Bash, Java, Linux (Arch), Unix
+***
+**Infrastructure**
+Docker, Kubernetes (Basics), Git, CMake, Make, GDB
+***
+**Networking**
+OSPF, BGP, RIP, EIGRP, MQTT, Wireshark, Packet Tracer
+***
+**Communication & Hardware**
+UART, SPI, I2C, CAN, STM32, ESP32, Arduino
+***
 **Databases**
-- PostgreSQL
-- SQLite
-
-**Frameworks & APIs**
-- FastAPI
-
-**Operating Systems**
-- Linux: System programming and administration
-- Unix: Command-line tools and shell scripting
-
-</details>
+PostgreSQL, SQLite
 
 ---
 

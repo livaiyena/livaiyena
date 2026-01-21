@@ -25,7 +25,7 @@ Computer Engineering student with a strong interest in systems and automation. C
 ### Languages & Core Technologies
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,python,java,bash,linux&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=c,python,bash,linux&theme=dark" />
 </p>
 
 ### Platforms & Tools
@@ -46,7 +46,7 @@ Computer Engineering student with a strong interest in systems and automation. C
 
 | | |
 | :--- | :--- |
-| **Languages & OS** | C, Python, Bash, Java, Linux (Arch) |
+| **Languages & OS** | C, Python, Bash, Linux |
 | **DevOps & Tools** | Docker, Kubernetes, Git, CMake, Make |
 | **Networking** | OSPF, BGP, MQTT, Wireshark |
 | **Embedded** | STM32, ESP32, UART, SPI, I2C |

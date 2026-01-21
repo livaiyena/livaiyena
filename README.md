@@ -2,11 +2,10 @@
 
 # Computer Engineering Student
 
-### Embedded Systems • Firmware Development • IoT
+### Systems Engineer • Firmware Development
 
 <p align="center">
-  <em>Transitioning from academic learning to practical firmware development</em><br>
-  <em>Focused on real-time systems and hardware-software integration</em>
+  <em>Focused on Linux environments and automation</em>
 </p>
 
 </div>
@@ -15,9 +14,7 @@
 
 ## About
 
-Computer Engineering student with a passion for embedded systems and low-level programming. Currently diving deep into RTOS-based applications, bare-metal firmware development, and driver implementation for resource-constrained microcontrollers.
-
-Seeking opportunities to apply theoretical knowledge in production environments and contribute to projects involving real-time embedded systems, firmware optimization, and hardware abstraction layer design.
+Computer Engineering student with a strong interest in systems and automation. Currently focused on developing projects and tools within the Arch Linux ecosystem to improve user experience.
 
 ---
 
@@ -28,13 +25,13 @@ Seeking opportunities to apply theoretical knowledge in production environments 
 ### Languages & Core Technologies
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,java,bash,linux&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=c,python,java,bash,linux&theme=dark" />
 </p>
 
 ### Platforms & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=raspberrypi,arduino,docker&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=arduino,githubactions,docker,kubernetes&theme=dark" />
 </p>
 
 ### Network & Database
@@ -50,41 +47,34 @@ Seeking opportunities to apply theoretical knowledge in production environments 
 
 <br>
 
-**Programming Languages**
-- C: Primary language for firmware development
-- C++: Object-oriented embedded applications
-- Python: Automation, testing, and tooling
-- Java: Object-oriented programming and applications
+**Programming & Scripting**
+- C: System-level & firmware development.
+- Python: Automation, scripting, and tooling
+- Java: Application development and OOP principles
 - Bash: Shell scripting and automation
 
-**Microcontrollers & Architectures**
-- ESP32 / ESP8266
-- STM32 Family
-- Raspberry Pi (4B, Zero W)
-- Arduino platforms
+**Networking (Protocols & Tools)**
+- Routing: OSPF, BGP, RIP, EIGRP, IS-IS.
+- Communication: MQTT, HTTP, Modbus, Ethernet (LWIP).
+- Low-Level: UART, SPI, I2C, CAN.
+- Tools: Wireshark, Cisco Packet Tracer.
 
-**Communication Protocols**
-- UART, USART, SPI, I2C
-- CAN (Controller Area Network)
-- USB (CDC, HID)
-- Ethernet (LWIP Stack)
-- Modbus RTU/TCP
-- MQTT, HTTP
+**Embedded Systems**
+- Microcontrollers: ESP32, STM32, Arduino, Raspberry Pi.
 
 **Development Tools & Environment**
+- Operating System: Linux, Unix
 - Debuggers: GDB
 - Build Systems: CMake, Make
 - Version Control: Git, GitHub
-- IDEs: VSCode
-- Containerization: Docker
-- Network Tools: Wireshark, Packet Tracer
+- Containerization: Docker, Kubernetes
 
 **Databases**
-- PostgreSQL: Relational database
-- SQLite: Embedded database
+- PostgreSQL
+- SQLite
 
 **Frameworks & APIs**
-- FastAPI: Python web framework
+- FastAPI
 
 **Operating Systems**
 - Linux: System programming and administration
@@ -105,20 +95,7 @@ Seeking opportunities to apply theoretical knowledge in production environments 
 
 <br>
 
-<sub>Statistics automatically updated</sub>
-
 </div>
-
----
-
-## Currently Learning
-
-Check out my [Learning Roadmap](LEARNING.md) for detailed information on technologies I'm actively exploring:
-
-- RTOSes: FreeRTOS, Zephyr
-- ARM Architectures: Cortex-M series
-- Tools: OpenOCD, J-Link, PlatformIO
-- Hardware Design: KiCad, PCB Design
 
 ---
 
@@ -133,7 +110,3 @@ Check out my [Learning Roadmap](LEARNING.md) for detailed information on technol
 </div>
 
 ---
-
-<div align="center">
-  <sub>Last updated automatically via GitHub Actions</sub>
-</div>

@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,50:0d2137,100:00d4ff&height=160&section=header&text=Kerem%20Apayd%C4%B1n&fontSize=42&fontColor=ffffff&fontAlignY=55&desc=Systems%20Programmer%20%C2%B7%20Embedded%20Linux%20%C2%B7%20Kernel%20Development&descAlignY=78&descSize=16" />
 
 [![Email](https://img.shields.io/badge/apaydinkerem18%40gmail.com-0a0e17?style=flat-square&logo=gmail&logoColor=00d4ff)](mailto:apaydinkerem18@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/keremapaydin-0a0e17?style=flat-square&logo=linkedin&logoColor=00d4ff)](https://linkedin.com/in/keremapaydin)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn:keremapaydin-0a0e17?style=flat-square&logo=linkedin&logoColor=00d4ff)](https://linkedin.com/in/keremapaydin)
 [![GitHub](https://img.shields.io/badge/@livaiyena-0a0e17?style=flat-square&logo=github&logoColor=00d4ff)](https://github.com/livaiyena)
 
 </div>
